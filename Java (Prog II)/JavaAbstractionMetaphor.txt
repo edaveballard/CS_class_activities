@@ -1,0 +1,5 @@
+Abstract Class:  Building a house in the city.  Blueprint has basic required hookup locations (sewage, electric) and door to connect to existing walkway.  Blueprint also shows all load-bearing walls and wiring, but you can set up the rest yourself.
+
+Interface:  Building a house in the city.  Blueprint has basic required hookup and door locations, but nothing else (you are responsible to figure out where to put load-bearing walls and wiring!).
+
+Class:  Building a house in the country.  You are digging your own well and septic, running your own wire and laying your own walkway, so put them wherever you want.  You build everything, better know what you're doing!
