@@ -1,0 +1,56 @@
+
+<html>
+<head>
+<title>Javascript Playground</title>
+
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript"
+src="https://d14to6y4nub5k1.cloudfront.net/gulp/e8c37837e1dfa1c7433f5ec5e7f4306ac8aec0f1/chs-js-lib/chs.js"></script>
+
+
+<style>
+canvas{
+    border: 1px solid black;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<canvas
+width="500"
+height="500"
+class="codehs-editor-canvas"></canvas>
+
+<script>
+window.onload = function() {
+
+function exampleFunction(){
+  myCircle = new Circle(100);
+  myCircle.setPosition(250,250);
+  add(myCircle);
+}
+
+function go(){
+  console.log('hello');
+}
+
+function start(){
+  exampleFunction();
+}
+
+    if (typeof start === 'function') {
+        start();
+    }
+};
+</script>
+
+</body>
+</html>
+
