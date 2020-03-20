@@ -1,6 +1,6 @@
 import random
 
-#reading the file, input.txt in same dir
+#reading the file, tweets.txt in same dir
 f = open("tweets.txt", "r", errors='ignore')
 lines = f.readlines()
 #place to put words
@@ -10,7 +10,6 @@ last_word = ""
 skips = ["http","@","#"]
 ends = [".","?","!"]
 
-#line.translate(str.maketrans('', '', string.punctuation))
 
 #doing this line-by-line
 #so long documents work
@@ -33,9 +32,6 @@ for line in lines:
         if skipword:
             continue
 
-        
-        
-
         #link words
         if last_word == "":
             last_word = word
@@ -55,9 +51,6 @@ for line in lines:
                 words[last_word]["EOL"] = 0
             words[last_word]["EOL"] += 1
             
-
-#print(words)
-
 user_in = ""  
 while user_in != "quit":
     user_in = input("First word (blank for random): ").lower()
