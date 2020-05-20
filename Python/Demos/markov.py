@@ -1,7 +1,7 @@
 import random
 
 #reading the file, tweets.txt in same dir
-f = open("tweets.txt", "r", errors='ignore')
+f = open("pickuplines.txt", "r", errors='ignore')
 lines = f.readlines()
 #place to put words
 words = {}
