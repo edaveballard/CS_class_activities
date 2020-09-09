@@ -11,7 +11,7 @@ Conway's Game of Life Rules:
 -A live cell with fewer than two live neighbors dies (underpopulation/extinction)
 -A live cell with two or three live neighbors stays alive (sustainable population density)
 -A live cell with more than three neighbors dies (overpopulation)
--A dead cell with EXCATLY three live neighbors comes to life (reproduction)
+-A dead cell with EXACTLY three live neighbors comes to life (reproduction)
 -A cell that is at the edge of the grid (with fewer than 8 neighbors) behaves as if the "missing" neighbor cells are dead
 
 
